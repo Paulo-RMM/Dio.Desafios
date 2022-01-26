@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Microsoft.VisualStudio.Language.Intellisense/17.0.491": {
+        "type": "package",
+        "compile": {
+          "lib/net472/Microsoft.VisualStudio.Language.Intellisense.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Microsoft.VisualStudio.Language.Intellisense.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.VisualStudio.Language.Intellisense/17.0.491": {
+      "sha512": "rTTdQf4dI8EqTr9xkgFJn/aL5UVHHDhQUw0MtDCj9sA0tnCP93/G7aye8RIHjsfuauY27WG7wkO1l2yMoBixPA==",
+      "type": "package",
+      "path": "microsoft.visualstudio.language.intellisense/17.0.491",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "PackageIcon.png",
+        "lib/net472/Microsoft.VisualStudio.Language.Intellisense.dll",
+        "lib/net472/Microsoft.VisualStudio.Language.Intellisense.xml",
+        "microsoft.visualstudio.language.intellisense.17.0.491.nupkg.sha512",
+        "microsoft.visualstudio.language.intellisense.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Microsoft.VisualStudio.Language.Intellisense >= 17.0.491"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Jhey & Long\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Jhey & Long\\DIO.Series\\DIO.Series.csproj",
+      "projectName": "DIO.Series",
+      "projectPath": "C:\\Users\\Jhey & Long\\DIO.Series\\DIO.Series.csproj",
+      "packagesPath": "C:\\Users\\Jhey & Long\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jhey & Long\\DIO.Series\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Jhey & Long\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.VisualStudio.Language.Intellisense": {
+            "target": "Package",
+            "version": "[17.0.491, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Microsoft.VisualStudio.Language.Intellisense 17.0.491' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net6.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Microsoft.VisualStudio.Language.Intellisense",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

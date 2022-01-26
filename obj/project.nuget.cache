@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "HSjN/Z8BcCp3r+xrWNd8inm8VDYSXPzC77A11Xk2wOePRdanCcHjwa7CXsUa0TdUuoCIdc0EcyZ7K8H45apw0g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jhey & Long\\DIO.Series\\DIO.Series.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jhey & Long\\.nuget\\packages\\microsoft.visualstudio.language.intellisense\\17.0.491\\microsoft.visualstudio.language.intellisense.17.0.491.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Microsoft.VisualStudio.Language.Intellisense 17.0.491' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' em vez da estrutura de destino do projeto 'net6.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Microsoft.VisualStudio.Language.Intellisense",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

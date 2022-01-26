@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DIO.Series/1.0.0": {
+        "dependencies": {
+          "Microsoft.VisualStudio.Language.Intellisense": "17.0.491"
+        },
+        "runtime": {
+          "DIO.Series.dll": {}
+        }
+      },
+      "Microsoft.VisualStudio.Language.Intellisense/17.0.491": {
+        "runtime": {
+          "lib/net472/Microsoft.VisualStudio.Language.Intellisense.dll": {
+            "assemblyVersion": "17.0.0.0",
+            "fileVersion": "17.0.491.16249"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DIO.Series/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.VisualStudio.Language.Intellisense/17.0.491": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTTdQf4dI8EqTr9xkgFJn/aL5UVHHDhQUw0MtDCj9sA0tnCP93/G7aye8RIHjsfuauY27WG7wkO1l2yMoBixPA==",
+      "path": "microsoft.visualstudio.language.intellisense/17.0.491",
+      "hashPath": "microsoft.visualstudio.language.intellisense.17.0.491.nupkg.sha512"
+    }
+  }
+}
